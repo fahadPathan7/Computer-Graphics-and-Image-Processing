@@ -1,3 +1,5 @@
+# Bresenham's Line Drawing Algorithm
+
 ## Needed adjustments to the algorithm I have made for the slope of m>1
 
 When adjusting the Bresenham's line drawing algorithm for the slope \( m > 1 \), several modifications are necessary compared to the case when \( 0 < m < 1 \).
@@ -17,7 +19,7 @@ Here are the adjustments that were needed:
 
    ![Before](./images/before.png) ![After](./images//after.png)
 
-Here we can see how the roles of x and y interchanged.
+   *Here we can see how the roles of x and y interchanged.*
 
 3. **Adjustment of decision parameter**:
    The decision parameter (\( D \)) calculation is adjusted to reflect the change in the role of x and y.
@@ -27,14 +29,15 @@ Here we can see how the roles of x and y interchanged.
 
    ![Before](./images/D1.png) ![After](./images/D2.png)
 
-Here we can see, how the decision parameter was adjusted.
+   *Here we can see, how the decision parameter was adjusted.*
 
 ## Output
 
 **For 0 < m < 1**
 
-![Output for 0 < m < 1](./images/output1.png)
+<img src="./images/output1.png" alt="Output for 0 < m < 1" width="400"/>
+
 
 **For m > 1**
 
-![Output for m > 1](./images/output2.png)
+<img src="./images/output2.png" alt="Output for m > 1" width="400"/>
